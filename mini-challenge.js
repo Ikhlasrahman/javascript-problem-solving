@@ -4,11 +4,10 @@
 // Stops (break) completely once it reaches a number greater than 40.
 // Prints every number that passes both checks.
 
-for (let i=0; i<=100;i++){
-    if(i%5===0)
-    {
+for (let i = 0; i <= 100; i++) {
+    if (i % 5 === 0) {
         continue;
-    }else if(i>40){break;}
+    } else if (i > 40) { break; }
     console.log(i);
-        
+
 }
